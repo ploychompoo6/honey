@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด | Honey Bloom</title>
+  <meta name="description" content="สินค้าน้ำผึ้งทั้งหมดของ Honey Bloom เลือกกรองตามแบบ Fresh, Sweet, Golden และ Premium แล้วสั่งซื้อได้ทันที">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Honey Bloom</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html" aria-current="page">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--page">
+      <div class="container">
+
+        <div class="section-head">
+          <h1>สินค้าทั้งหมด</h1>
+          <p>เลือกกรองตามแบบที่ชอบ แล้วกดสั่งซื้อได้ทันที</p>
+        </div>
+
+        <div id="filter-bar" class="filters" role="group" aria-label="กรองสินค้าตามแบบน้ำผึ้ง"></div>
+
+        <div id="product-list" class="product-grid" aria-live="polite"></div>
+
+        <noscript>
+          <p class="muted">กรุณาเปิดใช้งาน JavaScript เพื่อดูรายการสินค้า</p>
+        </noscript>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>&copy; 2026 Honey Bloom</span>
+      <a href="index.html">กลับหน้าแรก</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

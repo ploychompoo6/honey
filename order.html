@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สั่งซื้อ | Honey Bloom</title>
+  <meta name="description" content="กรอกข้อมูลเพื่อสั่งซื้อน้ำผึ้ง Honey Bloom">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Honey Bloom</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--page">
+      <div class="container">
+
+        <div class="section-head">
+          <h1>สั่งซื้อสินค้า</h1>
+          <p>กรอกข้อมูลด้านล่าง แล้วกดยืนยันสั่งซื้อ</p>
+        </div>
+
+        <form id="orderForm" class="form-narrow">
+
+          <div class="field">
+            <label for="customerName">ชื่อลูกค้า</label>
+            <input type="text" id="customerName" name="customerName" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="contact">เบอร์โทร / Line ID</label>
+            <input type="text" id="contact" name="contact" required>
+          </div>
+
+          <div class="field">
+            <label for="items">รายการสินค้า</label>
+            <input type="text" id="items" name="items" required>
+          </div>
+
+          <div class="field">
+            <label for="total">จำนวนเงินรวม (บาท)</label>
+            <input type="text" id="total" name="total" inputmode="decimal" required>
+          </div>
+
+          <div class="field">
+            <label for="note">หมายเหตุ (ถ้ามี)</label>
+            <textarea id="note" name="note" rows="4"></textarea>
+          </div>
+
+          <p class="muted">รายการสินค้าและจำนวนเงินจะถูกเติมให้อัตโนมัติเมื่อกดสั่งซื้อจากหน้าสินค้า</p>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn--gold">ยืนยันสั่งซื้อ</button>
+            <a class="btn btn--quiet" href="product.html">กลับไปเลือกสินค้า</a>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>&copy; 2026 Honey Bloom</span>
+      <a href="index.html">กลับหน้าแรก</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

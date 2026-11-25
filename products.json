@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hb-fresh-250",
+    "name": "น้ำผึ้ง Classic Fresh",
+    "mood": "fresh",
+    "type": "honey",
+    "size": "250ml",
+    "price": 129,
+    "image": "images/fresh.jpg",
+    "description": "น้ำผึ้งรสบางเบา หอมสดชื่น ทานง่าย เหมาะกับเครื่องดื่มเย็นและมื้อเช้า"
+  },
+  {
+    "id": "hb-fresh-500",
+    "name": "น้ำผึ้ง Classic Fresh",
+    "mood": "fresh",
+    "type": "honey",
+    "size": "500ml",
+    "price": 229,
+    "image": "images/fresh.jpg",
+    "description": "น้ำผึ้งรสบางเบา หอมสดชื่น ทานง่าย ขวดใหญ่สำหรับใช้ได้ทุกวัน"
+  },
+  {
+    "id": "hb-sweet-250",
+    "name": "น้ำผึ้ง Sweet",
+    "mood": "sweet",
+    "type": "honey",
+    "size": "250ml",
+    "price": 129,
+    "image": "images/sweet.jpg",
+    "description": "น้ำผึ้งหวานละมุน กลมกล่อม เข้ากับขนมปัง โยเกิร์ต และชาร้อน"
+  },
+  {
+    "id": "hb-sweet-500",
+    "name": "น้ำผึ้ง Sweet",
+    "mood": "sweet",
+    "type": "honey",
+    "size": "500ml",
+    "price": 229,
+    "image": "images/sweet.jpg",
+    "description": "น้ำผึ้งหวานละมุน กลมกล่อม ขวดใหญ่สำหรับครอบครัวหรือเก็บไว้ใช้นาน"
+  },
+  {
+    "id": "hb-golden-250",
+    "name": "น้ำผึ้ง Golden Premium",
+    "mood": "golden",
+    "type": "honey",
+    "size": "250ml",
+    "price": 189,
+    "image": "images/golden.jpg",
+    "description": "น้ำผึ้งสีทองใส กลิ่นหอมธรรมชาติ รสนุ่มลึก เหมาะเป็นของฝากหรือใช้เองในโอกาสพิเศษ"
+  },
+  {
+    "id": "hb-golden-500",
+    "name": "น้ำผึ้ง Golden Premium",
+    "mood": "golden",
+    "type": "honey",
+    "size": "500ml",
+    "price": 329,
+    "image": "images/golden.jpg",
+    "description": "น้ำผึ้งสีทองใส กลิ่นหอมธรรมชาติ รสนุ่มลึก ขวดใหญ่คุ้มค่าสำหรับคนรักน้ำผึ้ง"
+  },
+  {
+    "id": "hb-premium-250",
+    "name": "น้ำผึ้ง Premium",
+    "mood": "premium",
+    "type": "honey",
+    "size": "250ml",
+    "price": 189,
+    "image": "images/premium.jpg",
+    "description": "น้ำผึ้งเข้มข้น รสเข้มลึกและหอมยาว คัดสรรสำหรับผู้ที่ชอบรสชาติจัดเต็ม"
+  },
+  {
+    "id": "hb-premium-500",
+    "name": "น้ำผึ้ง Premium",
+    "mood": "premium",
+    "type": "honey",
+    "size": "500ml",
+    "price": 329,
+    "image": "images/premium.jpg",
+    "description": "น้ำผึ้งเข้มข้น รสเข้มลึกและหอมยาว ขวดใหญ่สำหรับผู้ที่ชอบรสชาติจัดเต็ม"
+  }
+]
